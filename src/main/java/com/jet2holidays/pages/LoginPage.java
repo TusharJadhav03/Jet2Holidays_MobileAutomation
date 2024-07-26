@@ -4,6 +4,8 @@ import com.jet2holidays.base.BasePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.concurrent.TimeUnit;
+
 public class LoginPage extends BasePage {
 
     @FindBy(id = "com.jet2.holidays:id/btn_accept_cookies")
@@ -56,6 +58,7 @@ public class LoginPage extends BasePage {
     }
 
     public void loginUser() throws InterruptedException {
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         setAcceot_cookies();
         setClickSignInButton();
         Thread.sleep(2000);
@@ -64,7 +67,9 @@ public class LoginPage extends BasePage {
         setEmailContinue();
         Thread.sleep(3000);
         setPassword("Sakshi@1228");
+        Thread.sleep(2000);
         setPasswordContinue();
     }
+
 
 }

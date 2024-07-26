@@ -11,10 +11,12 @@ public class LoginTest extends LoginPage {
 
     LoginPage loginPage;
 
+
     @BeforeMethod
     public void setUp() throws IOException {
         initialization();
         loginPage = new LoginPage();
+
     }
 
 

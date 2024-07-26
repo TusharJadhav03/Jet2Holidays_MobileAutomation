@@ -1,9 +1,7 @@
 package com.jet2holidays.pages;
 
 import com.jet2holidays.base.BasePage;
-import io.appium.java_client.TouchAction;
-import io.appium.java_client.touch.offset.PointOption;
-import org.openqa.selenium.JavascriptExecutor;
+import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -44,6 +42,28 @@ public class SearchHolidayPage extends BasePage {
 
     @FindBy(id = "com.jet2.holidays:id/btnSearchPanel")
     public WebElement searchButton;
+
+    @FindBy(xpath = "//android.widget.TextView[contains(@text,'Advanced Search')]")
+    public WebElement advancedSearchClick;
+
+    @FindBy(xpath = "//android.widget.TextView[contains(@text,'Price - low to high')]")
+    public WebElement lowToHighPrice;
+
+    @FindBy(xpath = "//android.widget.Button[contains(@text,'Done')]")
+    public WebElement doneButton;
+
+    public void setDoneButton(){
+        doneButton.click();
+    }
+
+    public void setLowToHighPrice(){
+        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Price - low to high\").instance(0))"));
+        lowToHighPrice.click();
+    }
+
+    public void setAdvancedSearchClick(){
+        advancedSearchClick.click();
+    }
 
     public void setDepartureAirport(){
         departureAirport.click();
@@ -106,6 +126,25 @@ public class SearchHolidayPage extends BasePage {
         setGuests();
         setAdultsMinus();
         setGuestsDoneButton();
+        setSearchButton();
+    }
+
+    public void SearchLowPriceHolidays() throws InterruptedException {
+        setDepartureAirport();
+        Thread.sleep(2000);
+        setManchesterCheckbox();
+        setDepartureDoneButton();
+        setDestinationSearch();
+        setRomeCheckbox();
+        setDestinationDoneButton();
+        setDepartureDate();
+        setDuration();
+        setGuests();
+        setAdultsMinus();
+        setGuestsDoneButton();
+        setAdvancedSearchClick();
+        setLowToHighPrice();
+        setDoneButton();
         setSearchButton();
     }
 

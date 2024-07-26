@@ -8,6 +8,19 @@
           <option value="Jet2Holidays_MobileAutomation" />
           <option value="Jet2Holidays_MobileAutomation" />
           <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
+          <option value="Jet2Holidays_MobileAutomation" />
         </list>
       </option>
       <option name="ignoredPackages">
@@ -15,10 +28,36 @@
           <option value="commons-codec:commons-codec:1.11" />
           <option value="commons-io:commons-io:2.5" />
           <option value="org.apache.maven.shared:maven-shared-utils:3.1.0" />
+          <option value="com.google.code.gson:gson:2.8.5" />
+          <option value="commons-beanutils:commons-beanutils:1.9.2" />
+          <option value="commons-collections:commons-collections:3.2.2" />
+          <option value="commons-io:commons-io:2.6" />
+          <option value="org.apache.httpcomponents:httpclient:4.5.9" />
+          <option value="org.springframework:spring-beans:5.1.8.RELEASE" />
+          <option value="org.springframework:spring-context:5.1.8.RELEASE" />
+          <option value="org.springframework:spring-core:5.1.8.RELEASE" />
+          <option value="org.springframework:spring-expression:5.1.8.RELEASE" />
+          <option value="com.google.guava:guava:31.1-jre" />
+          <option value="io.netty:netty-codec-http:4.1.84.Final" />
+          <option value="io.netty:netty-codec:4.1.84.Final" />
+          <option value="io.netty:netty-handler:4.1.84.Final" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
           <option value="Not exploitable" />
           <option value="Not exploitable" />
           <option value="Not exploitable" />

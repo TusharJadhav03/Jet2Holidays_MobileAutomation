@@ -12,6 +12,7 @@ public class HomePage extends BasePage {
     @FindBy(id = "com.jet2.holidays:id/ivMenu")
     public WebElement menuButton;
 
+
     public void setHolidays(){
         holidays.click();
     }
@@ -20,8 +21,11 @@ public class HomePage extends BasePage {
         menuButton.click();
     }
 
+
+
     public void homePageAction() throws InterruptedException {
         Thread.sleep(2000);
+
         setMenuButton();
         setHolidays();
     }

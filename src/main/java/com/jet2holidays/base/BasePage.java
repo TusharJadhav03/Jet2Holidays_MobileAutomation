@@ -17,13 +17,18 @@ public class BasePage {
 
     public void initialization() throws IOException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability("appium:automationName","UIAutomator2");
+//        capabilities.setCapability("appium:noReset",true);
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("PlatformVersion", "13.0");
         capabilities.setCapability("deviceName","dd454927347a");
+//        capabilities.setCapability("appPackage","com.jet2.holidays");
+//        capabilities.setCapability("appActivity","com.jet2.holidays.ui.activity.MainActivity");
         capabilities.setCapability("app","C:\\Users\\tusha\\OneDrive\\Pictures\\Bridgelabz\\ApplicationsMobile\\com.jet2.holidays.apk");
         capabilities.setCapability("autoGrantPermissions", true);
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         System.out.println("Start automation.......");
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
+
 }

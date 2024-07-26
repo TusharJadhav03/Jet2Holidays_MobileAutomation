@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee7c6326-dfba-400d-b59d-825b1e6b370e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/SearchHolidayPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/HomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/SearchHolidayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/PassengerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/PaymentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/SelectHolidayPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/utilities/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/PassengerDetailsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/PaymentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/SelectHolidayPackageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet2holidays/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/SearchHolidayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jet2holidays/pages/SearchHolidayPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/SearchHolidayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jet2holidays/testcases/SearchHolidayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.HomeTest.Home.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.Login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SearchHolidayTest.SearchHolidays.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.HomeTest.Home.executor": "Run",
+    "TestNG.LoginTest.Login.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.PassengerDetailsTest.addPassengerDetail.executor": "Run",
+    "TestNG.PaymentTest.PaymentTest.executor": "Run",
+    "TestNG.SearchHolidayTest.SearchHolidays.executor": "Run",
+    "TestNG.SearchHolidayTest.SearchLowPriceHolidays.executor": "Run",
+    "TestNG.SelectHolidayPackageTest.BookHolidays.executor": "Run",
+    "TestNG.SelectHolidayPackageTest.SearchHolidays.executor": "Run",
+    "TestNG.SelectHolidayPackageTest.SelectLowPriceHolidays.executor": "Run",
+    "TestNG.SelectHolidayPackageTest.executor": "Run",
+    "TestNG.Tests.BookHolidayPackageWithUserAccount.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.SearchHolidayTest.SearchHolidays">
-    <configuration name="HomeTest.Home" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.SelectHolidayPackageTest.SelectLowPriceHolidays">
+    <configuration name="PaymentTest.PaymentTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Jet2Holidays_MobileAutomation" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +81,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jet2holidays.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.jet2holidays.testcases.HomeTest" />
-      <option name="METHOD_NAME" value="Home" />
+      <option name="MAIN_CLASS_NAME" value="com.jet2holidays.testcases.PaymentTest" />
+      <option name="METHOD_NAME" value="PaymentTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -79,42 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Jet2Holidays_MobileAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jet2holidays.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jet2holidays.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.jet2holidays.testcases.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.Login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Jet2Holidays_MobileAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jet2holidays.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jet2holidays.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.jet2holidays.testcases.LoginTest" />
-      <option name="METHOD_NAME" value="Login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchHolidayTest.SearchHolidays" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchHolidayTest.SearchLowPriceHolidays" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Jet2Holidays_MobileAutomation" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +100,61 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.jet2holidays.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.jet2holidays.testcases.SearchHolidayTest" />
-      <option name="METHOD_NAME" value="SearchHolidays" />
+      <option name="METHOD_NAME" value="SearchLowPriceHolidays" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectHolidayPackageTest.BookHolidays" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Jet2Holidays_MobileAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jet2holidays.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jet2holidays.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.jet2holidays.testcases.SelectHolidayPackageTest" />
+      <option name="METHOD_NAME" value="BookHolidays" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectHolidayPackageTest.SelectLowPriceHolidays" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Jet2Holidays_MobileAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jet2holidays.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jet2holidays.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.jet2holidays.testcases.SelectHolidayPackageTest" />
+      <option name="METHOD_NAME" value="SelectLowPriceHolidays" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.BookHolidayPackageWithUserAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Jet2Holidays_MobileAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jet2holidays.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jet2holidays.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.jet2holidays.testcases.Tests" />
+      <option name="METHOD_NAME" value="BookHolidayPackageWithUserAccount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,10 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchHolidayTest.SearchHolidays" />
-        <item itemvalue="TestNG.LoginTest.Login" />
-        <item itemvalue="TestNG.HomeTest.Home" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.SelectHolidayPackageTest.SelectLowPriceHolidays" />
+        <item itemvalue="TestNG.SearchHolidayTest.SearchLowPriceHolidays" />
+        <item itemvalue="TestNG.Tests.BookHolidayPackageWithUserAccount" />
+        <item itemvalue="TestNG.PaymentTest.PaymentTest" />
+        <item itemvalue="TestNG.SelectHolidayPackageTest.BookHolidays" />
       </list>
     </recent_temporary>
   </component>
